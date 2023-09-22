@@ -40,7 +40,7 @@ python preprocessing.py --input_path <path_to_input_data> --output_path <path_to
 1. To train the model(s) in the paper, run this command:
 
 ```bash
-python train.py --input-data <path_to_data> --alpha 10 --beta 20
+python run_training_Flare.py 12 3d_mylowres 1 -tr nnUNetTrainerFlarePseudoCutUnsupLow -p nnUNetPlans
 ```
 
 >Describe how to train the models, with example commands, including the full training procedure and appropriate hyper-parameters.
