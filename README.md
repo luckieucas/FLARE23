@@ -8,7 +8,7 @@
 To install requirements:
 
 ```setup
-git clone 
+git clone https://github.com/luckieucas/FLARE23.git
 cd nnUNet
 pip install -e .
 ```
