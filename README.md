@@ -8,7 +8,7 @@
 To install requirements:
 
 ```setup
-pip install -r requirements.txt
+pip install -e .
 ```
 
 >Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
@@ -17,8 +17,7 @@ pip install -r requirements.txt
 
 ## Dataset
 
-- A link to download the data (if publicly available)
-- A description of how to prepare the data (e.g., folder structures)
+- MICCAI FLARE 2023 dataset
 
 ## Preprocessing
 
