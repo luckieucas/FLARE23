@@ -1,9 +1,9 @@
 ## Environments and Requirements
 
-- Windows/Ubuntu version
-- CPU, RAM, GPU information
-- CUDA version
-- python version
+- Ubuntu 20.04 LTS
+- RTX 3090 with 24GB GPU memory
+- 11.7
+- Python 3.10
 
 To install requirements:
 
