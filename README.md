@@ -8,6 +8,8 @@
 To install requirements:
 
 ```setup
+git clone 
+cd nnUNet
 pip install -e .
 ```
 
