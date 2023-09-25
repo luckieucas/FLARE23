@@ -31,8 +31,8 @@ A brief description of the preprocessing method
 
 Running the data preprocessing code:
 
-```python
-python preprocessing.py --input_path <path_to_input_data> --output_path <path_to_output_data>
+```bash
+nnUNetv2_plan_and_preprocess -d 12 --verify_dataset_integrity
 ```
 
 ## Training
