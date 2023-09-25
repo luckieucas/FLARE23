@@ -70,9 +70,9 @@ nnUNetv2_evaluate_folder <path_to_ground_truth>  <path_to_inference_results>
 
 Our method achieves the following performance on [MICCAI FLARE23: Fast, Low-resource, and Accurate oRgan and Pan-cancer sEgmentation in Abdomen CT](https://codalab.lisn.upsaclay.fr/competitions/12239)
 
-| Model name       |  DICE  | 95% Hausdorff Distance |
-| ---------------- | :----: | :--------------------: |
-| My awesome model | 90.68% |         32.71          |
+| Model name       |  Organ DICE(%)  | Organ NSD(%) | Tumor DICE(%) | Tumor NSD(%)
+| ---------------- | :----: | :--------------------: | :--------------------: | :--------------------: |
+| Our method | 92.18 |         96.33          | 46.26|38.65 |
 
 >Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
