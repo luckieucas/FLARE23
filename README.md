@@ -68,7 +68,7 @@ python eval.py --seg_data <path_to_inference_results> --gt_data <path_to_ground_
 
 ## Results
 
-Our method achieves the following performance on [Brain Tumor Segmentation (BraTS) Challenge](https://www.med.upenn.edu/cbica/brats2020/)
+Our method achieves the following performance on [MICCAI FLARE23: Fast, Low-resource, and Accurate oRgan and Pan-cancer sEgmentation in Abdomen CT](https://codalab.lisn.upsaclay.fr/competitions/12239)
 
 | Model name       |  DICE  | 95% Hausdorff Distance |
 | ---------------- | :----: | :--------------------: |
