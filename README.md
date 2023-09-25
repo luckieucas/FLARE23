@@ -13,7 +13,6 @@ cd nnUNet
 pip install -e .
 ```
 
->Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 
 
@@ -62,7 +61,6 @@ To compute the evaluation metrics, run:
 nnUNetv2_evaluate_folder <path_to_ground_truth>  <path_to_inference_results>
 ```
 
->Describe how to evaluate the inference results and obtain the reported results in the paper.
 
 
 
@@ -73,8 +71,6 @@ Our method achieves the following performance on [MICCAI FLARE23: Fast, Low-reso
 | Model name       |  Organ DICE(%)  | Organ NSD(%) | Tumor DICE(%) | Tumor NSD(%)
 | ---------------- | :----: | :--------------------: | :--------------------: | :--------------------: |
 | Our method | 92.18 |         96.33          | 46.26|38.65 |
-
->Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
 ## Contributing
