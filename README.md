@@ -71,16 +71,6 @@ python finetune.py --input-data <path_to_data> --pre_trained_model_path <path to
 nnUNetv2_predict -i <path_to_data> -o  <path_to_output_data>  -d 12 -c 3d_mylowres -f 1 -chk <name_of_trained_model> -tr  nnUNetTrainerFlarePseudoCutUnsupLow -step_size 0.6 -npp 3 --disable_tta
 ```
 
-> Describe how to infer testing cases with the trained models.
-
-2. [Colab](https://colab.research.google.com/) jupyter notebook
-
-3. Docker containers on [DockerHub](https://hub.docker.com/)
-
-```bash
-docker container run --gpus "device=0" -m 28G --name algorithm --rm -v $PWD/CellSeg_Test/:/workspace/inputs/ -v $PWD/algorithm_results/:/workspace/outputs/ algorithm:latest /bin/bash -c "sh predict.sh"
-```
-
 ## Evaluation
 
 To compute the evaluation metrics, run:
