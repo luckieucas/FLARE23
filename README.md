@@ -59,7 +59,7 @@ nnUNetv2_predict -i <path_to_data> -o  <path_to_output_data>  -d 12 -c 3d_mylowr
 To compute the evaluation metrics, run:
 
 ```eval
-python eval.py --seg_data <path_to_inference_results> --gt_data <path_to_ground_truth>
+nnUNetv2_evaluate_folder <path_to_ground_truth>  <path_to_inference_results>
 ```
 
 >Describe how to evaluate the inference results and obtain the reported results in the paper.
