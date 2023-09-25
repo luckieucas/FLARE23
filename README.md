@@ -23,11 +23,13 @@ pip install -e .
 
 ## Preprocessing
 
-A brief description of the preprocessing method
 
 - cropping
 - intensity normalization
 - resampling
+- flip
+- rotation
+- scale
 
 Running the data preprocessing code:
 
