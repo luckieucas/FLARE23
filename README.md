@@ -45,23 +45,6 @@ nnUNetv2_plan_and_preprocess -d 12 --verify_dataset_integrity
 python run_training_Flare.py 12 3d_mylowres 1 -tr nnUNetTrainerFlarePseudoCutUnsupLow -p nnUNetPlans
 ```
 
->Describe how to train the models, with example commands, including the full training procedure and appropriate hyper-parameters.
-
-You can download trained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on the above dataset with the above code. 
-
->Give a link to where/how the trained models can be downloaded.
-
-
-2. To fine-tune the model on a customized dataset, run this command:
-
-```bash
-python finetune.py --input-data <path_to_data> --pre_trained_model_path <path to pre-trained model> --other_flags
-```
-
-3. [Colab](https://colab.research.google.com/) jupyter notebook
-
 
 ## Inference
 
@@ -101,9 +84,3 @@ Our method achieves the following performance on [Brain Tumor Segmentation (BraT
 ## Acknowledgement
 
 > We thank the contributors of public datasets. 
-
-
-# 3. How to ensure reproducibility when the data cannot be shared?
-
-- Try to find a related public dataset to evaluate your method, e.g., [The Cancer Imaging Archive](https://www.cancerimagingarchive.net/), [grand-challenge](https://grand-challenge.org/challenges/). If none of the public datasets can be used to evaluate your method, please explicitly claim it, which is very helpful for communities to create task-driven public datasets.
-- Create a docker container to pack and share the proposed method. Many MICCAI challenges have used the docker as the submission, e.g., [ADAM](http://adam.isi.uu.nl/methods/submit/), [M&Ms](https://www.ub.edu/mnms/)
