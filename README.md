@@ -68,7 +68,7 @@ python finetune.py --input-data <path_to_data> --pre_trained_model_path <path to
 1. To infer the testing cases, run this command:
 
 ```python
-python inference.py --input-data <path_to_data> --model_path <path_to_trained_model> --output_path <path_to_output_data>
+nnUNetv2_predict -i <path_to_data> -o  <path_to_output_data>  -d 12 -c 3d_mylowres -f 1 -chk <name_of_trained_model> -tr  nnUNetTrainerFlarePseudoCutUnsupLow -step_size 0.6 -npp 3 --disable_tta
 ```
 
 > Describe how to infer testing cases with the trained models.
